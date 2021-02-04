@@ -1,0 +1,18 @@
+{
+  "name": "import-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "node export.js",
+    "import": "node import.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful-export": "^7.11.3",
+    "contentful-import": "^7.9.37"
+  }
+}
